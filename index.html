@@ -4,12 +4,6 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://benjaming1312.github.io/protekz/dist/css/usercss.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/vue"></script>
-    <script src="dist/js/userjs.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -102,4 +96,313 @@
       <div class="section section-5"><img class="bg" src="https://benjaming1312.github.io/protekz/dist/images/bg_06.jpg" alt=""/></div>
     </div>
   </body>
+  <style>
+    a:hover,
+    a:focus,
+    a:focus {
+    	text-decoration: none;
+    	outline: none
+    }
+    
+    * {
+    	font-family: "Noto Sans TC", "微軟正黑體", "sans-serif";
+    	font-size: 16px;
+    	letter-spacing: 0em
+    }
+    
+    body {
+    	line-height: 1.42857143
+    }
+    
+    body,
+    html {
+    	margin: 0;
+    	overflow-x: hidden
+    }
+    
+    body *,
+    html * {
+    	box-sizing: border-box
+    }
+    
+    .posr {
+    	position: relative
+    }
+    
+    .wrapper {
+    	width: 100%
+    }
+    
+    @media (max-width: 1000px) {
+    	.wrapper {
+    		width: 1200px
+    	}
+    }
+    
+    .section {
+    	margin-top: -1rem
+    }
+    
+    .section img {
+    	width: 100%
+    }
+    
+    .text-yellow {
+    	color: #f3df1c
+    }
+    
+    .flex {
+    	display: -webkit-box;
+    	display: flex;
+    	flex-wrap: wrap
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+    	margin-top: 0;
+    	margin-bottom: 0
+    }
+    
+    .section {
+    	box-sizing: border-box
+    }
+    
+    .section * {
+    	color: white
+    }
+    
+    .section .text-yellow {
+    	color: #f3df1c
+    }
+    
+    .section-1 .flex {
+    	flex-wrap: nowrap
+    }
+    
+    .section-1 .content {
+    	position: absolute;
+    	bottom: 2vw;
+    	right: 0;
+    	width: 70%;
+    	padding-left: 2vw
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-1 .content {
+    		bottom: 20px;
+    		padding-left: 20px
+    	}
+    }
+    
+    .section-1 .content .title {
+    	display: -webkit-box;
+    	display: flex;
+    	-webkit-box-align: center;
+    	align-items: center;
+    	padding-left: 1.5vw
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-1 .content .title {
+    		padding-left: 15px
+    	}
+    }
+    
+    .section-1 .content h4.title {
+    	font-weight: bold;
+    	font-size: 3vw;
+    	display: inline-block;
+    	margin-right: 2.5vw
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-1 .content h4.title {
+    		font-size: 32px;
+    		margin-right: 25px
+    	}
+    }
+    
+    .section-1 .content img {
+    	height: 2.1vw;
+    	width: auto;
+    	margin-right: 1.5vw
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-1 .content img {
+    		height: 21px;
+    		margin-right: 15px
+    	}
+    }
+    
+    .section-1 .content h5.sub-title {
+    	font-size: 1.8vw;
+    	font-weight: bold
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-1 .content h5.sub-title {
+    		font-size: 20px
+    	}
+    }
+    
+    .section-1 ul {
+    	margin-top: 1.5vw;
+    	margin-right: 2vw;
+    	padding-left: 2vw
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-1 ul {
+    		margin-top: 15px;
+    		margin-right: 20px;
+    		padding-left: 20px
+    	}
+    }
+    
+    .section-1 ul li {
+    	font-size: 1vw;
+    	font-weight: bold;
+    	margin-bottom: .5rem;
+    	white-space: nowrap
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-1 ul li {
+    		font-size: 13.5px
+    	}
+    }
+    
+    .section-1 ul:last-child li {
+    	margin-bottom: 0.05rem
+    }
+    
+    .section-3 .content {
+    	position: absolute;
+    	top: 5vw;
+    	left: 0;
+    	z-index: 3;
+    	width: 100%;
+    	text-align: center
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-3 .content {
+    		text-outline: 50px
+    	}
+    }
+    
+    .section-3 .content h2.title {
+    	font-weight: bold;
+    	font-size: 10vw;
+    	text-shadow: 3px 5px 20px #333
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-3 .content h2.title {
+    		font-size: 100px
+    	}
+    }
+    
+    .section-3 .content .sub-title {
+    	font-family: "Bank Gothic", "Noto Sans TC", "微軟正黑體", "sans-serif";
+    	font-size: 2.8vw;
+    	margin-top: 5vw;
+    	color: #000000
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-3 .content .sub-title {
+    		font-size: 28px;
+    		margin-top: 50px
+    	}
+    }
+    
+    .section-4 .content {
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	width: 100%;
+    	padding: 1.7vw 4vw
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-4 .content {
+    		padding: 17px 40px
+    	}
+    }
+    
+    .section-4 .content .flex {
+    	flex-wrap: nowrap;
+    	-webkit-box-pack: justify;
+    	justify-content: space-between;
+    	-webkit-box-align: center;
+    	align-items: center
+    }
+    
+    .section-4 .content .flex+.flex {
+    	margin-top: 0vw
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-4 .content .flex+.flex {
+    		margin-top: 50px
+    	}
+    }
+    
+    .section-4 .content .info {
+    	width: calc(100% - 35vw)
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-4 .content .info {
+    		width: 65%
+    	}
+    }
+    
+    .section-4 .content h4.title {
+    	font-weight: bolder;
+    	font-size: 2.5vw;
+    	white-space: nowrap
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-4 .content h4.title {
+    		font-size: 26px
+    	}
+    }
+    
+    .section-4 .content div.title {
+    	width: 35vw;
+    	display: inline-block
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-4 .content div.title {
+    		width: 35%
+    	}
+    }
+    
+    .section-4 .content ul {
+    	padding-left: 0
+    }
+    
+    .section-4 .content ul li {
+    	font-weight: bold;
+    	margin-bottom: 0vw;
+    	line-height: 1.8vw;
+    	font-size: 1vw
+    }
+    
+    @media screen and (max-width: 767px) {
+    	.section-4 .content ul li {
+    		line-height: 18px;
+    		font-size: 13px;
+    		margin-bottom: .5rem
+    	}
+    }
+  </style>
 </html>
